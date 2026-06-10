@@ -1,53 +1,47 @@
-/**
- * Next.js 14 Route Handler: /api/comments
- * Creates new post comments (Open endpoint)
- */
-import { NextResponse, NextRequest } from 'next/server';
+import { NextRequest, NextResponse } from 'next/server';
 import { createClient } from '@/lib/supabase/server';
 
-export async function POST(request: NextRequest) {
-  try {
-    const { post_id, user_name, content } = await request.json();
+export async function GET(request: NextRequest) {
+  const supabase = await createClient();
+  const { searchParams } = new URL(request.url);
+  const postId = searchParams.get('post_id');
 
-    if (!post_id || !user_name || !content) {
-      return NextResponse.json({ error: 'Missing parameter names or body content.' }, { status: 400 });
-    }
+  let query = supabase
+    .from('comments')
+    .select('*')
+    .order('created_at', { ascending: true });
 
-    /*
-     * RATE LIMITING AWARENESS (PRODUCTION NOTE):
-     *
-     * To protect comment creation from spam or bot attacks without auth, enforce a Redis token bucket limiter:
-     *
-     * import { Redis } from '@upstash/redis';
-     * import { Ratelimit } from '@upstash/ratelimit';
-     *
-     * const ip = request.headers.get('x-forwarded-for') || 'anonymous';
-     * const ratelimit = new Ratelimit({
-     *   redis: Redis.fromEnv(),
-     *   limiter: Ratelimit.slidingWindow(5, '10 s'),
-     * });
-     * const { success } = await ratelimit.limit(`comments_${ip}`);
-     * if (!success) return NextResponse.json({ error: 'Too many comments. Calm down!' }, { status: 429 });
-     */
-
-    const supabase = createClient();
-    
-    const { data: comment, error } = await supabase
-      .from('comments')
-      .insert({
-        post_id,
-        user_name,
-        content
-      })
-      .select('*')
-      .single();
-
-    if (error) {
-      return NextResponse.json({ error: error.message }, { status: 500 });
-    }
-
-    return NextResponse.json(comment, { status: 201 });
-  } catch (err: any) {
-    return NextResponse.json({ error: err.message || 'Internal Server Error' }, { status: 500 });
+  if (postId) {
+    query = query.eq('post_id', postId);
   }
+
+  const { data, error } = await query;
+
+  if (error) {
+    return NextResponse.json({ error: error.message }, { status: 500 });
+  }
+
+  return NextResponse.json(data ?? []);
+}
+
+export async function POST(request: NextRequest) {
+  const supabase = await createClient();
+  const body = await request.json();
+  const { post_id, user_name, content } = body;
+
+  if (!post_id || !user_name || !content) {
+    return NextResponse.json({ error: 'Missing required fields: post_id, user_name, content' }, { status: 400 });
+  }
+
+  const { data, error } = await supabase
+    .from('comments')
+    .insert({ post_id, user_name, content })
+    .select()
+    .single();
+
+  if (error) {
+    return NextResponse.json({ error: error.message }, { status: 400 });
+  }
+
+  return NextResponse.json(data, { status: 201 });
 }

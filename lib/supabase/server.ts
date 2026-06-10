@@ -1,7 +1,6 @@
 /**
  * Supabase server-side helper
- * Uses `@supabase/ssr` to securely handle server components and route handlers
- * Note: Designed to run inside Next.js 14 App Router environment
+ * Updated for Next.js 15: cookies() is now async
  */
 import { createServerClient } from '@supabase/ssr';
 import { cookies } from 'next/headers';
@@ -9,8 +8,8 @@ import { cookies } from 'next/headers';
 const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL || 'https://placeholder-project.supabase.co';
 const supabaseAnonKey = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY || 'mock-anon-key-123';
 
-export function createClient() {
-  const cookieStore = cookies();
+export async function createClient() {
+  const cookieStore = await cookies(); // Next.js 15: async cookies()
 
   return createServerClient(supabaseUrl, supabaseAnonKey, {
     cookies: {
@@ -23,8 +22,7 @@ export function createClient() {
             cookieStore.set(name, value, options)
           );
         } catch {
-          // The `setAll` method can be called from a Server Component.
-          // This can be ignored if you have middleware refreshing user sessions.
+          // Can be ignored from Server Components — middleware handles refresh
         }
       },
     },
