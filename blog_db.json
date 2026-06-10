@@ -1,0 +1,306 @@
+{
+  "posts": [
+    {
+      "id": "pk-star-1",
+      "title": "Spotlight: Haruna Aliyu on Scaling Developer Pipelines in Kaduna State",
+      "slug": "spotlight-haruna-aliyu-kaduna",
+      "status": "published",
+      "view_count": 541,
+      "category": "stars",
+      "type": "profile",
+      "author_id": "d9b3a01a-8c9f-4318-8f83-aa1870fa8899",
+      "created_at": "2026-06-09T10:43:12.739Z",
+      "updated_at": "2026-06-09T10:43:12.740Z",
+      "plain_text_excerpt": "An in-depth conversation with Haruna Aliyu on founding local developer clinics, mentoring youth in systems programming, and establishing open-source hubs across Kaduna state.",
+      "thumbnail_url": "https://images.unsplash.com/photo-1542831371-29b0f74f9713?auto=format&fit=crop&w=800&q=80",
+      "content": {
+        "root": {
+          "type": "root",
+          "children": [
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "In the heart of Kaduna’s emerging tech landscape sits Haruna Aliyu, a veteran computer engineer and community organizer who has dedicated the past eight years to turning raw passion into structural engineering excellence. Having witnessed the rise and fall of several regional developer projects, Haruna believed the missing ingredient in Northern Nigeria is not a lack of interest, but the absence of systematic, deep-tech developer pipelines.",
+                  "format": 0
+                }
+              ]
+            },
+            {
+              "type": "heading",
+              "tag": "h2",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Moving From Abstract Concepts to Production Standards",
+                  "format": 0
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "“For too long, we have kept higher education computer science focused on memorization rather than execution,” Haruna states. “Students can write bubble sort algorithms on whiteboards, but they cannot ship clean, scalable Web APIs. Our vision at the developer clinics is to immerse university students in real-world team sprints where they write actual production code under professional code review standards.”",
+                  "format": 0
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Through his open-source mentoring workshops in Kaduna and Kano, Haruna has pushed for regional adoption of system level programming—guiding students through Rust, TypeScript backend frameworks, and cloud-native architecture principles. More than 450 of his mentees have successfully transited into foreign and local engineering roles, showing that the potential of Northern talent is limitless when given modern scaffolding.",
+                  "format": 0
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "pk-highlight-1",
+      "title": "The Arewa Hub Expansion: Mapping Kano, Kaduna, and Jos Innovation Centers",
+      "slug": "arewa-tech-hubs-kano-jos",
+      "status": "published",
+      "view_count": 383,
+      "category": "highlights",
+      "type": "article",
+      "author_id": "d9b3a01a-8c9f-4318-8f83-aa1870fa8899",
+      "created_at": "2026-06-07T10:43:12.740Z",
+      "updated_at": "2026-06-07T10:43:12.740Z",
+      "plain_text_excerpt": "Tracing the major explosion of physical co-working hubs, software academies, and co-creation labs mapping northern Nigeria’s new technical ecosystem and economic frontier.",
+      "thumbnail_url": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=800&q=80",
+      "content": {
+        "root": {
+          "type": "root",
+          "children": [
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "A profound change is sweeping through the northern states. From the commercial boulevards of Kano to the administrative avenues of Kaduna, physical hubs are transforming into critical regional bases. Places like CoLab in Kaduna, Blue Saffron, and the Kano State Tech Hub are no longer just internet-sharing rooms; they are the new factories of the 21st century.",
+                  "format": 0
+                }
+              ]
+            },
+            {
+              "type": "heading",
+              "tag": "h3",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Unlocking Local Collaboration and High-Speed Access",
+                  "format": 0
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "These hubs provide stable, high-speed fiber connectivity, backup solar electricity, and perhaps most importantly, a structured cohort ecosystem. Developers, students, and early-stage founders work alongside each other, sparking collaborative solutions to regional logistics, agriculture technology, and mobile payments. Standard assessments show that active co-working hours in the region grew by over 300% in the last year alone, demonstrating a sharp rise in focus and talent density.",
+                  "format": 0
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "pk-event-1",
+      "title": "Arewa Developer Summit 2026: Raising Tech Leadership in the North",
+      "slug": "arewa-developer-summit-2026",
+      "status": "published",
+      "view_count": 243,
+      "category": "events",
+      "type": "event",
+      "author_id": "d9b3a01a-8c9f-4318-8f83-aa1870fa8899",
+      "created_at": "2026-06-05T10:43:12.740Z",
+      "updated_at": "2026-06-06T10:43:12.740Z",
+      "plain_text_excerpt": "The premier annual gathering of software creators, network engineers, and angel investors returns this September in Kaduna to bridge the talent-to-opportunity gap.",
+      "thumbnail_url": "https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?auto=format&fit=crop&w=800&q=80",
+      "content": {
+        "root": {
+          "type": "root",
+          "children": [
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "The upcoming Arewa Developer Summit (ADS) will bring together thousands of engineers, regional startup founders, and design students under one roof in Kaduna. Over three days, workshops and panels will focus on concrete themes: securing distributed startup funding, building low-bandwidth software systems for agrarian commerce, and establishing strong cross-border technical relationships.",
+                  "format": 0
+                }
+              ]
+            },
+            {
+              "type": "heading",
+              "tag": "h3",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Bridge the Gap Between Local Talent and High-Scale Opportunities",
+                  "format": 0
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Summit directors have set up specific hackathons in collaboration with regional companies to place top developers directly into active technical assignments. Students from Ahmadu Bello University, Bayero University Kano, and Kaduna State University are eligible for dedicated bursaries and transport support to participate in the summit’s full schedule.",
+                  "format": 0
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "pk-opinion-1",
+      "title": "Opinion: Moving Beyond Theory in Regional Computer Science Syllabi",
+      "slug": "opinion-regional-science-syllabi",
+      "status": "published",
+      "view_count": 176,
+      "category": "opinion",
+      "type": "editorial",
+      "author_id": "d9b3a01a-8c9f-4318-8f83-aa1870fa8899",
+      "created_at": "2026-05-31T10:43:12.740Z",
+      "updated_at": "2026-05-31T10:43:12.740Z",
+      "plain_text_excerpt": "Why higher education curricula across Northern Nigerian colleges must shift from static textbooks to active product construction and project-based software engineering.",
+      "thumbnail_url": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&w=800&q=80",
+      "content": {
+        "root": {
+          "type": "root",
+          "children": [
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "It is a common frustration: a student graduates with first-class honors in Computer Science from a reputable northern university, yet struggles to initialize a Docker container or explain the difference between client-side state and database schemas. This is not a personal failure of the students; it is a structural failure of our higher education system.",
+                  "format": 0
+                }
+              ]
+            },
+            {
+              "type": "heading",
+              "tag": "h3",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "The Theoretical Trap",
+                  "format": 0
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Our computer training syllabi are heavily trapped in theoretical computing structures designed in the early 1990s. While understanding mathematical Turing machines and algorithm complexity is academically enriching, it must be balanced with active project development. We suggest universities collaborate directly with regional co-creation hubs to integrate a mandatory, full-semester software development sprint where students collaborate on open-source codebases, deploy real applications to cloud containers, and practice modern devops pipelines.",
+                  "format": 0
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "pk-draft-1",
+      "title": "Actionable Checklist for Aspiring Northern Developers in 2026",
+      "slug": "aspiring-northern-developers-checklist",
+      "status": "draft",
+      "view_count": 12,
+      "category": "opinion",
+      "type": "article",
+      "author_id": "d9b3a01a-8c9f-4318-8f83-aa1870fa8899",
+      "created_at": "2026-06-10T10:43:12.740Z",
+      "updated_at": "2026-06-10T10:43:12.740Z",
+      "plain_text_excerpt": "A concrete, structured study and networking guide for university students starting their software development journeys in Kaduna, Kano, and Jos.",
+      "thumbnail_url": "https://images.unsplash.com/photo-1542831371-29b0f74f9713?auto=format&fit=crop&w=800&q=80",
+      "content": {
+        "root": {
+          "type": "root",
+          "children": [
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "This draft documents essential skill checkpoints and peer networks to connect with across major northern towns. Remember to maintain high-quality GitHub documentation of all practical exercises.",
+                  "format": 0
+                }
+              ]
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "comments": [
+    {
+      "id": "c1",
+      "post_id": "pk-star-1",
+      "user_name": "Ibrahim Bello",
+      "content": "True reflection of Haruna’s work. His sessions at the co-working centers in Kaduna literally changed my career trajectory. More universities should hire him to consult on syllabi!",
+      "created_at": "2026-06-09T22:43:12.740Z"
+    },
+    {
+      "id": "c2",
+      "post_id": "pk-star-1",
+      "user_name": "Fatima Umar",
+      "content": "Excellent interview. Shifting the spotlight to system-level programming and real engineering pipelines is exactly what our student community needs.",
+      "created_at": "2026-06-10T08:43:12.740Z"
+    }
+  ],
+  "profile": {
+    "username": "arewa_editor",
+    "email": "vandulinus@gmail.com",
+    "full_name": "Vandulinus Arewa",
+    "password": "admin",
+    "avatar_url": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?auto=format&fit=crop&w=150&q=80",
+    "bio": "Lead Editorial Director and Curator mapping Northern Nigeria’s high-growth tech ecosystems.",
+    "two_factor_enabled": false,
+    "ip_whitelist": "0.0.0.0/0",
+    "last_login": "2026-06-10T10:43:12.740Z"
+  },
+  "notifications": [
+    {
+      "id": "nt-1",
+      "title": "New Co-working Expansion Tip",
+      "message": "Mubarak from Kano Hub submitted an expansion alert: \"Kano Creative Tech Base is expanding by 40 spaces next month.\"",
+      "type": "tip",
+      "read": false,
+      "created_at": "2026-06-10T08:43:12.740Z"
+    },
+    {
+      "id": "nt-2",
+      "title": "Secure Whistleblower Log",
+      "message": "Anonymous submission on curriculum distribution: \"Two computer science departments are missing system compiler toolchains.\"",
+      "type": "whistleblower",
+      "read": false,
+      "created_at": "2026-06-10T02:43:12.740Z"
+    },
+    {
+      "id": "nt-3",
+      "title": "Comment Thread Activity",
+      "message": "Fatima Umar posted on article \"Spotlight: Haruna Aliyu...\"",
+      "type": "comment",
+      "read": true,
+      "created_at": "2026-06-09T22:43:12.740Z"
+    }
+  ]
+}

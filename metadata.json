@@ -1,0 +1,6 @@
+{
+  "name": "Northern Nigeria Tech Ecosystem Blog",
+  "description": "A high-contrast editorial journalism blog covering the technical developers, co-working hubs, activities, and computing programs mapping out Northern Nigeria's technology ecosystems.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
